@@ -1,0 +1,25 @@
+# Model weights and Hub release folders (published on Hugging Face, not in git)
+release/
+*.safetensors
+*.bin
+*.pt
+checkpoints*/
+pretrain/tokenized_shards/
+finetune/lora*/
+
+# Corpora and intermediate data
+corpus/
+ft/
+*.arrow
+*.jsonl
+*.jsonl.gz
+*.npy
+
+# Experiment tracking and caches
+wandb/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
