@@ -1,0 +1,33 @@
+{
+  "tokenized_shards": 49,
+  "total_lines": 17155073,
+  "total_tokens": 2420924049,
+  "packed_sequences_upper_bound": 591045,
+  "seq_length": 4096,
+  "by_language": {
+    "english": {
+      "script": "latin",
+      "lines": 2015071,
+      "tokens": 1602942297,
+      "token_share": 0.66212
+    },
+    "odia": {
+      "script": "odia",
+      "lines": 15071896,
+      "tokens": 807950933,
+      "token_share": 0.333737
+    },
+    "dogri": {
+      "script": "devanagari",
+      "lines": 68105,
+      "tokens": 10030800,
+      "token_share": 0.004143
+    },
+    "other": {
+      "script": "other",
+      "lines": 1,
+      "tokens": 19,
+      "token_share": 0.0
+    }
+  }
+}

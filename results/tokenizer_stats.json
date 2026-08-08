@@ -1,0 +1,76 @@
+{
+  "vocab_size": 32000,
+  "special_tokens": {
+    "unk": 0,
+    "bos": 1,
+    "eos": 2,
+    "pad": -1
+  },
+  "vocabulary_by_script": {
+    "latin": 14076,
+    "odia": 8907,
+    "devanagari": 7951,
+    "digits_punctuation_symbols": 1013,
+    "other_script": 53
+  },
+  "compression": {
+    "english": {
+      "sample_lines": 1496,
+      "sample_chars": 5001053,
+      "sample_words": 812198,
+      "cognita_mini": {
+        "tokens": 1181669,
+        "chars_per_token": 4.232,
+        "bytes_per_token": 4.253,
+        "tokens_per_word": 1.455
+      },
+      "baseline": {
+        "tokens": 1112794,
+        "chars_per_token": 4.494,
+        "bytes_per_token": 4.516,
+        "tokens_per_word": 1.37
+      },
+      "token_ratio_baseline_over_ours": 0.942
+    },
+    "odia": {
+      "sample_lines": 21441,
+      "sample_chars": 5000011,
+      "sample_words": 762555,
+      "cognita_mini": {
+        "tokens": 1134702,
+        "chars_per_token": 4.406,
+        "bytes_per_token": 11.686,
+        "tokens_per_word": 1.488
+      },
+      "baseline": {
+        "tokens": 9769960,
+        "chars_per_token": 0.512,
+        "bytes_per_token": 1.357,
+        "tokens_per_word": 12.812
+      },
+      "token_ratio_baseline_over_ours": 8.61
+    },
+    "dogri": {
+      "sample_lines": 8545,
+      "sample_chars": 5000102,
+      "sample_words": 972378,
+      "cognita_mini": {
+        "tokens": 1270012,
+        "chars_per_token": 3.937,
+        "bytes_per_token": 10.026,
+        "tokens_per_word": 1.306
+      },
+      "baseline": {
+        "tokens": 4756150,
+        "chars_per_token": 1.051,
+        "bytes_per_token": 2.677,
+        "tokens_per_word": 4.891
+      },
+      "token_ratio_baseline_over_ours": 3.745
+    }
+  },
+  "baseline": {
+    "name": "Qwen/Qwen3-0.6B",
+    "vocab_size": 151669
+  }
+}
