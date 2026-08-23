@@ -1,0 +1,12 @@
+{
+  "total_parameters": 167469952,
+  "num_layers": 12,
+  "num_tensors": 135,
+  "by_component": {
+    "feed_forward": 66060288,
+    "attention": 44040192,
+    "output_head": 28672000,
+    "token_embedding": 28672000,
+    "normalization": 25472
+  }
+}
