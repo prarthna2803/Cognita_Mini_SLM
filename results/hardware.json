@@ -1,0 +1,17 @@
+{
+  "gpu": "NVIDIA H100 NVL",
+  "gpus_used": 2,
+  "pretrain_wall_clock_hours": 8.63,
+  "pretrain_gpu_hours": 17.3,
+  "pretrain_tokens_per_second": 168646,
+  "finetune_wall_clock_hours": 13.31,
+  "software": {
+    "python": "3.12.11",
+    "torch": "2.8.0",
+    "transformers": "4.56.1",
+    "datasets": "4.1.0",
+    "peft": "0.17.1",
+    "sentencepiece": "0.2.1"
+  },
+  "note": "Pre-training ran as two sessions (4.68 h, then 3.95 h resumed from the step-3000 checkpoint)."
+}
