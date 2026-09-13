@@ -1,0 +1,9 @@
+{
+  "examples_sampled": 20000,
+  "mean_tokens_per_example": 59.4,
+  "mean_response_tokens": 7.57,
+  "max_tokens_in_sample": 377,
+  "padded_length": 4096,
+  "real_token_share_when_padded": 0.0145,
+  "response_token_share_when_padded": 0.00185
+}

@@ -1,0 +1,8 @@
+{
+  "base_model": "Cognita-Mini-167M",
+  "adapter": null,
+  "examples": 1838,
+  "chance": 0.5,
+  "accuracy_length_normalised": 0.5718,
+  "accuracy_summed": 0.5669
+}

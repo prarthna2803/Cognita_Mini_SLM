@@ -1,0 +1,29 @@
+{
+  "english": {
+    "examples": 7000,
+    "majority_answer": 0.1269,
+    "majority_answer_value": 0,
+    "best_constant_within_2": 0.2967,
+    "best_constant_value": 2,
+    "mean_answer": 9.4,
+    "max_answer": 39
+  },
+  "odia": {
+    "examples": 7100,
+    "majority_answer": 0.0555,
+    "majority_answer_value": 1,
+    "best_constant_within_2": 0.2499,
+    "best_constant_value": 2,
+    "mean_answer": 10.52,
+    "max_answer": 28
+  },
+  "dogri_script": {
+    "examples": 2000,
+    "majority_answer": 0.0545,
+    "majority_answer_value": 1,
+    "best_constant_within_2": 0.2535,
+    "best_constant_value": 2,
+    "mean_answer": 10.5,
+    "max_answer": 28
+  }
+}

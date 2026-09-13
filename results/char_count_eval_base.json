@@ -1,0 +1,29 @@
+{
+  "base_model": "Cognita-Mini-167M",
+  "adapter": null,
+  "decoding": "greedy",
+  "seed": 0,
+  "by_dataset": {
+    "english": {
+      "examples": 300,
+      "exact": 0.0,
+      "within_2": 0.0067,
+      "mae": 13.429,
+      "unparseable": 0.9533
+    },
+    "odia": {
+      "examples": 300,
+      "exact": 0.0,
+      "within_2": 0.0033,
+      "mae": 11.5,
+      "unparseable": 0.9867
+    },
+    "dogri_script": {
+      "examples": 300,
+      "exact": 0.0,
+      "within_2": 0.0067,
+      "mae": 11.667,
+      "unparseable": 0.98
+    }
+  }
+}
