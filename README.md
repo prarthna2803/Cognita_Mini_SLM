@@ -476,10 +476,10 @@ built it with teammate Pratyush Jena. This repository is the cleaned-up version,
 number measured again from the released weights.
 
 ```bibtex
-@misc{sharma2025cognitamini,
-  author = {Prarthna Sharma},
+@misc{jenasharma2025cognitamini,
+  author = {Sharma, Prarthna and Jena, Pratyush},
   title  = {Cognita-Mini: a 167M-parameter English, Odia and Dogri language model trained from scratch},
   year   = {2025},
-  url    = {https://github.com/prarthna2803/Cognita-Mini-SLM}
+  url    = {https://github.com/prarthna2803/Cognita_Mini_SLM}
 }
 ```
